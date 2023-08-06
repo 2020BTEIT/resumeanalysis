@@ -3,8 +3,8 @@ import streamlit as st
 import pandas as pd
 import base64,random
 import time,datetime
-import qrcode
-import qrcode
+
+
 from urllib.parse import urlparse
 from PIL import Image
 import requests  
