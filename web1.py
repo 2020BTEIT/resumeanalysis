@@ -3,13 +3,14 @@ import streamlit as st
 import pandas as pd
 import base64,random
 import time,datetime
-
-
+import qrcode
+import qrcode
 from urllib.parse import urlparse
 from PIL import Image
 import requests  
- 
-  
+from pyresparser import ResumeParser
+from pdfminer3.layout import LAParams, LTTextBox
+from pdfminer3.pdfpage import PDFPage
 from pdfminer3.pdfinterp import PDFResourceManager
 from pdfminer3.pdfinterp import PDFPageInterpreter
 from pdfminer3.converter import TextConverter
