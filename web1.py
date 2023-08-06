@@ -9,8 +9,7 @@ from urllib.parse import urlparse
 from PIL import Image
 import requests  
  
- 
-from pdfminer3.pdfpage import PDFPage
+  
 from pdfminer3.pdfinterp import PDFResourceManager
 from pdfminer3.pdfinterp import PDFPageInterpreter
 from pdfminer3.converter import TextConverter
