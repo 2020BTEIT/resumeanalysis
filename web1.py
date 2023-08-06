@@ -8,7 +8,7 @@ import time,datetime
 from urllib.parse import urlparse
 from PIL import Image
 import requests  
-from pyresparser import ResumeParser
+ 
 from pdfminer3.layout import LAParams, LTTextBox
 from pdfminer3.pdfpage import PDFPage
 from pdfminer3.pdfinterp import PDFResourceManager
